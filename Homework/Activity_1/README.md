@@ -46,6 +46,9 @@ To assist you with the search process, create a generic searchArray function tha
 
 
 # 8-4: Arrays on the Menu
+
+# NOTE that I recommended that you should look at pdf file in this folder for this quesion.
+
 The table of charges for a nearby toll road is below.
 ￼￼￼￼￼￼￼￼￼END (Departure)
 ￼￼￼￼Eagle Way
@@ -73,7 +76,5 @@ The table of charges for a nearby toll road is below.
 ￼￼￼￼￼￼1.33
 ￼￼￼￼￼￼0.95
 ￼￼￼￼0
-
-NOTE that I recommended that you should look at pdf file in this folder for this quesion.
 
 ￼￼￼￼￼Write a program that inputs the starting location (one of the on ramps listed on the left of the table) and the ending location (one of the exit locations listed across the top.) The program should output the trip cost found at the intersection of these two locations. Tip: It is up to you to determine how the user inputs starting point and ending point. However, it may be useful to provide the user with a menu (e.g., 1=Eagle Way, 2=I-234, and so on) to simplify input.
