@@ -1,7 +1,7 @@
 # CEIT211
 
 
-#8-1: Arrays and Whole Numbers
+# 8-1: Arrays and Whole Numbers
 Write a program that reads a series of a hundred test scores from a file. Each score is guaranteed to be a positive whole number value in the range 0 to 100. The program should track the number of instances of each value using an array. Once all values have been inputted, display the number of instances of each score from highest score to lowest score. If no instances of a particular score exist, the program should simply skip listing it.
 Sample output:
 Value Occurrence 100 3
@@ -19,11 +19,11 @@ Value Occurrence 100 3
 54 1
 52 1
 
-#8-2: The Average Function
+# 8-2: The Average Function
 Write a program that includes an average function. The average function should take an array of integers and a number of elements as arguments. The function should return the average of the numbers in the array. The function should work for any size int array. Demonstrate your function in main.
 
 ￼
-#8-3: Parallel Arrays
+# 8-3: Parallel Arrays
 A local inventory system keeps track of where merchandise is located within backroom storage. Write a program that tracks data using parallel arrays.
 ￼￼￼Model #
 ￼￼￼￼￼0123AV
@@ -45,7 +45,7 @@ A local inventory system keeps track of where merchandise is located within back
 To assist you with the search process, create a generic searchArray function that uses a sequential search for a given string. The function should return the subscript of the element containing the data or -1 to indicate the data was not found.
 
 
-#8-4: Arrays on the Menu
+# 8-4: Arrays on the Menu
 The table of charges for a nearby toll road is below.
 ￼￼￼￼￼￼￼￼￼END (Departure)
 ￼￼￼￼Eagle Way
