@@ -1,4 +1,4 @@
-# CEIT211
+# CEIT211 Activiy 1 Homework
 
 
 # 8-1: Arrays and Whole Numbers
