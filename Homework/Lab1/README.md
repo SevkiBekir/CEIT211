@@ -1,4 +1,4 @@
-# CEIT211
+# Lab 1 Homework 
 # 1.
 Write a C++ program which prints the calendar of a month. This program should ask for the following information from user:
 Days of month (e.g. 28, 29, 30, 31),
