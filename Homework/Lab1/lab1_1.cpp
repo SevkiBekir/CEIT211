@@ -1,7 +1,7 @@
 // *****************************************************
 // * This example is about Calendar Lab1 HW            *
 // * Created by Sevki Bekir                            *
-// * Date: March 10, 2015                               *
+// * Date: March 10, 2015                              *
 // *****************************************************
 #include <iostream>
 #include <stdlib.h>
