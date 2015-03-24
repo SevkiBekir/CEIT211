@@ -6,7 +6,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#define SIZE 2
+#define SIZE 10
 
 using namespace std;
 
