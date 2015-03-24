@@ -6,8 +6,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
-#define POINT_SIZE 3
-#define SKATER_SIZE 2
+#define POINT_SIZE 10
+#define SKATER_SIZE 5
 
 using namespace std;
 
@@ -22,23 +22,25 @@ struct skaters
 skaters f1(skaters fSkater[])
 {
   int i,j;
-  double sum=0;
+
   for(i=0;i<SKATER_SIZE;i++)
   {
-    cout << i<<". Skater Name:";
+    double sum=0;
+    cout << i+1<<". Skater Name:";
     cin >> fSkater[i].name;
-    cout << i<<". Skater Country:";
+    cout << i+1<<". Skater Country:";
     cin >> fSkater[i].country;
     for(j=0;j<POINT_SIZE;j++)
     {
-      cout << i+1<<". Skater points-:"<<j+1;
+      cout << i+1<<". Skater points-"<<j+1<<":";
       cin >> fSkater[i].points[j];
       sum+=fSkater[i].points[j];
     }
     fSkater[i].average=sum/POINT_SIZE;
 
+
   }
-  return fSkater;
+  return *fSkater;
 }
 
 skaters f2(skaters fSkater[])
@@ -61,15 +63,15 @@ skaters f2(skaters fSkater[])
 int main ()
 {
   skaters mySkater[SKATER_SIZE];
-  mySkater=f1(mySkater);
+  *mySkater=f1(mySkater);
   mySkater[0]=f2(mySkater);
   cout << "WINNER\nSkater Name:"<<mySkater[0].name<<"\nSkater Country:"<<mySkater[0].country<<endl;
   int i;
-  for(i=0;i<POINT_SIZE<i++)
+  for(i=0;i<POINT_SIZE;i++)
   {
     cout << "Skater Point-"<<i+1<<":"<<mySkater[0].points[i]<<endl;
   }
-
+  cout << "Skater Average:"<<mySkater[0].average<<endl;
 
   return 0;
 }
