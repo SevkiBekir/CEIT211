@@ -28,8 +28,6 @@ public:
 
 Triangle::Triangle(double* arr)
 {
-  //sides=arr;
-  //std::copy(arr, arr+sizeof(arr)/sizeof(arr[0]), sides);
   int i;
   for(i=0;i<SIZE;i++)
     sides[i]=arr[i];
